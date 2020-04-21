@@ -1,0 +1,33 @@
+Block and stream ciphers
+
+padding orcacles
+
+don't implement your own crypto
+
+block cipher modes:
+	Electronic codebook (ECB)
+		standard encrypting with each key
+		has problems
+	counter encryption
+		CTR - counter mode encryption
+		encrypt a nonce not the plaintext??
+	XOR with Vector initialiser first
+		cipher block chaining (CBC)
+		then XOR everything with previous ciphertext
+	other one?
+padding orcale attacks
+	being able to pad to block size is hard
+
+facebook keeps shadow profiles
+
+CVEs - numbering system for vulnerabilities
+ - get a CVE = extra marks
+The essential 8
+	people seem to always make the same mistakes
+	e.g. 10 most common vulnerabilities
+OWASP
+	look it up
+
+stargate ghost problem
+	send people through the stargate
+	literally untrusted medium (only one direction though)

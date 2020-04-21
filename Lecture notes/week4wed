@@ -1,0 +1,50 @@
+acronym for most common letters
+quote about assume enemy knows system - kerchoff's? principle
+
+risk
+	we can never see risk
+		only outcome
+	kid wasn't hit bc luck - reversing out without checking
+		person was equally as bad
+	pigoen doing a pattern repeatedly getting a grain every 2 minutes
+		was simply luck
+	humans are good at assessing high probability action
+		doesn't matter if high or low impact
+
+	bank run/toilet paper
+		people do what they see
+
+
+	risks are correlated
+		- dinosaurs specialised to temperature/food they were used to
+
+	online votes will cause correlated error
+		human error cancells each other out
+
+	self driving car correlated risk
+
+
+
+	format strings - print statement
+		vuln found in early 200s
+		%n writes number of chars written
+			6447 goes into more depth
+
+		%x print next item on stack as hex
+			reflected input can be used
+
+		use AAA%x to find where input is stored
+
+		can dump whole stack as strings to find hidden strings
+
+		sudo 2012 bug
+			second order exploit basically
+			programme name not sanitised
+				printed into fmt2
+				then fmt2 was printed to stderr
+
+		many exploits are simlar to sudo bug
+			expoloited through errors
+
+		control and data
+			the first argument is control - can't let the user have this

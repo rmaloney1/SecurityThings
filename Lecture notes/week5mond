@@ -1,0 +1,58 @@
+CIA contd
+
+Authentication
+	real life - seeing someone's face?
+		twins
+		tom cruise
+		lack of lack
+		you see what you expect to see
+
+	impossible
+		computer is trying to achieve something that is outisde the computer
+
+	way of authenticating - factors
+		first factor - something you know
+			vuln to man in the middle
+			can be leaked
+			used once?
+
+		second factor - something you have
+			e.g. card
+			can be forged
+			expensive sometimes
+			chips can be reverse engineered, brute forced, software can be stolen
+			nature of the card has to be converted to information so computer knows you have the card
+			 - don't actually need anything physical to atack the system
+
+		thrid - something you are
+			e.g. the way you walk
+			fingerprint
+			 - again more information
+			 - fingerprint sensor many ways to beat e.g. breathing on sensor
+			can't change these secrets
+				if they get stolen they are stolen forever
+
+		2FA
+			sms became 1FA because banking is also done on phones!
+			sim tray is not locked
+			clone sim is easy - secret of the sim card
+
+Integrity
+	compute if its been changed in someway
+
+	using hashing
+		pre-image attacks
+			being able to compute the input from the hash
+
+		MD5 - SHA0 SHA1 2 3
+		MD5
+			
+
+
+end to end
+	one of the end is the real world
+		very hard to defend
+
+type1 type2 errors on authentication
+	e.g. not recognising own fingerprint
+

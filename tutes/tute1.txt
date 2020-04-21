@@ -1,0 +1,12 @@
+SELECT * from Rentals
+INNER JOIN User
+WHERE User.uid=Rentals.uid
+AND USER.firstName = "Mike"
+ORDER BY Rentals.date DESC
+
+podcasts
+	hackable
+	darknet
+	malicious life
+	risky biz
+

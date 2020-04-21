@@ -1,0 +1,33 @@
+tendency for people to focus on one thing to the exclusion of everything else
+e.g. post 9/11
+	pushed extra laws - giving police extra power to act on terrorism
+	gave way to privacy invasions
+can't forget other issues
+
+government contact tracing app - case study
+
+China syndrome - movie for the exam
+
+Richard has a dog
+
+Mitnick's attack
+	Kevin Mitnick - the art of deception and other the art books
+
+	TCP/IP
+		tcp takes stream from packets and rebuilds in order
+		- has to reorder
+		- initialise connection (socket)
+			- handshake: syn synacc acc
+		- sequences starting at different numbers
+		- send packets starting from agreed upon numbers 
+
+	ip-spoofing
+		- send command from ip addresss of registered (trusted) computer
+		- each convo sequence would start seqs 128000? sapart
+
+	shimammura was victim? in example
+		DOS australia (trusted connection of shimamura)
+		initialise handshake FROM AUS - predicting sequence start
+
+TOCTOU attack
+	time of credential time of use differential

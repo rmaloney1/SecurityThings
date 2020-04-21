@@ -1,0 +1,71 @@
+tool to let you keep root
+
+useland and kernelland rootkits
+needs root (usually) to install 
+
+userland
+	more common on windows
+	on *nic this will probs consist of multiple files
+		overriding system library files
+
+	often based on replacing common utilities (ls, netstat, ps)
+	can infrect important processes such as sshd
+
+	can be really simple or really complex based on needs
+
+	kernel rootkis will often have a userland part
+		kernel code is hard
+
+	There's a difference between a backdoor and a rootkit
+
+	metlstorm's non-root rootkit - read about (insomniasec.com/cdn-assets...)
+
+what's a kernel
+	the kernel is the most inetrnal part of an operating system
+
+	ring0, most privileged ring in protected mode
+
+	ring0 can access everything and execute any instruction
+		kernel runs as ring0
+		kernel is the 'root' of programs
+		accessed through system calls
+
+hooking
+	goal is to redirect code execution
+
+	we overwrite instuctions with a jump to our code -- inline hooking
+	can overwrite the syscall function tables
+		used to hide files or hide open ports
+
+
+	can implement a backdoor
+		e.g. specific backdoor command makes you root
+
+every time we go from user mode to kernel mode - called an interrupt
+interrupt
+	a page fault
+	divide by 0
+	sys calls
+	other stuff probably
+
+what is a kernel rootkitz
+	hooking functions in kernel land
+	goal is to hide stuff
+		syscallsare the only entrance to the computer
+
+	often based on replacing common syscalls (read, open exec)
+
+	A lot harder to write
+		kernel specific wrong
+
+hypervidor rootkit
+	kernel is buckland hypervisor is UNSW
+	runs in ring -1
+
+	hypervisor are used to manage operatring systems
+
+do I have a rootkit?
+	detection can be hard
+		hooking the IDT or syscall table's are really easy to detect
+		- but requires writing of kernel code so rarely done
+	userland rootkits are sometimes easier to detect

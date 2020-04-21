@@ -1,0 +1,43 @@
+password db attacks
+	brute force
+	dictionary attack
+	credential stuffing - find user/passs pairs from previous breaches
+		fuzzing
+	SQLi
+
+	2FA
+		password is no longer enough
+		sim swapping - not secure
+
+		UBkeys
+			buy 2?
+
+securing on db
+	plaintext eh
+	encryption - reversible
+	hashing - rainbow table vuln
+			freq analysis
+	salting (global) - freq analysis vuln
+	unique salts - freq analysis secure
+	rounds - increases compute time (defend brute force)
+
+Case study
+
+giving data to someone may be safe now (nothing to hide)
+	but may be dangerous in future
+	future securing
+	Rwanda genocide
+	government are incompetent
+	all data gets breached stolen and lost
+
+	get rid of data lakes?? - colect minimum information you can
+								delete it otherwise
+	de-identify information
+		20 questions kinda problem to re-identify
+
+	identify cars from tolls
+
+	california first to make illegal to hide data breaches
+		got good security
+
+toler act?

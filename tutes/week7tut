@@ -1,0 +1,25 @@
+threat modelling
+	detailed evaulation of all assets the company/firm wants to protext
+		work out how much value each of these holds
+		evaluate how much they are willing to spend to secure such assets
+	compromise between convenience and security
+
+Symmetric encryption
+	faster
+	used for sending messages
+
+	block cipher modes
+		ECB - electronic code book
+			same weekness as repeating XOR string
+			same plaintext will be encoded as the same
+		website to see different modes encoding
+
+supply chain attacks
+	rather than trying to compromise a company directly
+		compromise supplier or something the company uses
+			e.g Zoom - slack - swipe cards
+	examples
+		notpetya
+			russians targeted ukraine
+			Maersk affected
+		event stream

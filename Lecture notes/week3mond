@@ -1,0 +1,17 @@
+Secrets
+	monotonically increase
+
+	Confidentiality, Integrity, Authentication
+	- cyptographic primitives
+
+	six design priniciples for military ciphers:
+		The system must be practically, if not mathematically indecipherable
+		It muust not be required to be a secret, and it must be able to fall into the hands of the enemy without inconvenience
+			secret system makes untestable system - defender mindset
+		Key must be communicable and retainbale without the help of written notes and changeable or midifiable at the will of the correspondents
+		it must be applicable to telegraphic correspondents
+		Apparatus and documents must be portable, and its usage and function must not require the concourse of several peopole.
+		the system must be easy to use, requiring neither mental strain nor the knowledge of a long seies of rules to observe.
+
+security through obscurity is bad
+

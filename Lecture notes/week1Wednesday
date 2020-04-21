@@ -1,0 +1,28 @@
+attacker
+	the adversary
+
+it's hard to write software that is secure
+
+also good for making things that just don't fail
+
+why do things fail
+	they are too complex
+
+	coupling - small changes can have unexpected effects
+
+type1 and type 2 errors
+	false positives and false negatives
+
+	reduce one increases the other
+
+
+SQL injection
+No screen recording!!
+
+LFI
+	local file inclusion
+
+	user controlled input to acess a file
+	PHP mainly
+	log files, user files, hosts - files that may be targeted
+	

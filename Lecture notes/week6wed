@@ -1,0 +1,138 @@
+command and control
+
+cold war
+	in 2nd world war president demanded that he be in control of nuclear launches
+
+	have been 32 nuclear weapon accidents known as "broken arrows"
+		since 1950
+
+hard to enforce power all the way down
+	live nuclear missiles left ungaurded in a warehouse
+
+weapons safety
+	everyone has to be able to know what weapons are being used
+
+	type 1 / type 2 errors
+		attention in cold war was getting nukes working
+		not much attention on accidents
+
+	pin codes
+		bomb wouldn't explode unless the president tells the pin code
+		-if phone lines go down then can't launch attack
+
+leader/general/pharoah - strength of a million people but brains of 1
+	better with discussion - more creative
+		harder to get things done
+
+corona
+	china adopted a big command and control structure
+		time of crisis - need type 1 structure
+	america has a bit of chaos - everyone doing everything
+
+buckland calls this:
+	centralisation vs decantralisation
+
+athens overthrew the king
+	invented democracy
+	kings seem to keep coming back
+		need a boss to be in charge - but stop this boss taking more and more power
+
+	athens appointed 2 people to be in power not just one
+
+people in power will try to retain power
+	putin doing it right now - trying to change russian constitution
+	try to control media
+	in aus we combat this by
+		separating state and judiciary
+		constitution
+		govenor general
+
+	aus public sector is being corroded
+		MPs being appointed to lead external sectors
+
+	TURKEY
+		prime minister has managed to maintain power
+
+Draconian laws - incredibly strict
+
+Temporary dictator to solve a crisis
+	possible solution for now?
+	may result in dictatorship system after this is all over
+
+Danger of a dictator is a sinlge point of failure
+	problem is the top
+
+Double entry bookkeeping
+	2 ice cream servers - must corrupt both to cheat system
+dual control system
+
+everything goes in both books
+	would have to change both books to cheat system
+
+These days a lot of the double entry keeping is done in the same software, e.g. MYOB
+
+also is dual control to stop errors (as well as corruption)
+	like pair programming
+	when checking read it backwards
+
+watch the opening sequence to wargames - physical sequences and protocols
+	dual control
+
+
+
+Asset protection
+	don't forget what you're trying to protect
+
+checklist for identifying assets
+	ask all the people in the organisation?
+	regularly surveying the values of people of the involved in what you are protecting
+	perioodically revise current list of assets
+
+Uni assets
+	Student data
+	Money
+	Intellectual property - research etc
+	Buildings and infrastructure
+	Reputation
+
+	chemicals and materials
+	communication channels
+	staff and students themselves - humans!!! - safe practices
+
+share registry - no more paper trails, everything is recorded electronically
+coke - biggest asset is their brand
+
+tangible assets:
+	physical things
+intangible assets
+	secrets, employee morale and security
+	reputation
+	availability of services
+
+assesing the value of an assets
+	how much money would be lost if it went down for 24hrs
+examples
+	picasso painting
+methods:
+	how much someone else will pay for it
+	how much you paid for it
+	how much it would cost to replace
+	if it generates income - how much it may generate in future
+art frauds - a lot at the moment
+
+
+
+hash revision
+	preimage resistance: hard to find x from h(x)
+	second preimage resistance: hard to find another input that has same output
+
+Schneier: 
+	hash should look like a random function
+
+cryptographic functions are broken if there is a method to crack ciphers quicker than brute force
+	anything quicker, even 1 bit less than brute force bits of work
+
+birthday attack
+	after about 23 people should find 2 people with the same birthday - birthday paradox
+	if n possible birthdays, takes on average sqrt(n) people to ask until a collision
+	
